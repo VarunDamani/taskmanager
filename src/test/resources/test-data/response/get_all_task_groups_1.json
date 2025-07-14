@@ -1,0 +1,34 @@
+[
+  {
+    "taskGroupId": 1,
+    "name": "HR Tasks",
+    "tasks": [
+      {
+        "taskId": 1,
+        "name": "Ethics",
+        "description": "Training"
+      },
+      {
+        "taskId": 2,
+        "name": "Data",
+        "description": "Training"
+      }
+    ]
+  },
+  {
+    "taskGroupId": 2,
+    "name": "Finance Tasks",
+    "tasks": [
+      {
+        "taskId": 3,
+        "name": "Compliance",
+        "description": "Training"
+      },
+      {
+        "taskId": 4,
+        "name": "Security",
+        "description": "Training"
+      }
+    ]
+  }
+]
