@@ -33,7 +33,7 @@ tasks.
 8. Dockerfile for cloud native deployments
 9. docker-compose for spinning up middleware locally for consistent development experience
 
-## Things that could added ot improved
+## Things that could added or improved
 
 1. Automate the entire local running setup for smoother developer onboarding and consistent experience
 2. Move away from Basic auth to JWT based auth
@@ -41,4 +41,5 @@ tasks.
 4. Support of load testing(K6)
 5. Database connection pool tuning
 6. Improved auditing database records
+7. Formulate a plan for deployment based on Cloud Provider
 
