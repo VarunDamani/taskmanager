@@ -24,12 +24,12 @@ public class SecurityConfig {
 
     @Bean
     public UserDetailsService users() {
-        // Configure DEVELOPER user with DEVELOPER role
+        // Configure DEVELOPER user with TASK_GROUP_EDITOR role
         // https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/in-memory.html
         UserDetails user = User.builder()
                 .username("DEVELOPER")
                 .password("{bcrypt}".concat(developerPassword))
-                .roles("DEVELOPER")
+                .roles("TASK_GROUP_EDITOR")
                 .build();
         return new InMemoryUserDetailsManager(user);
     }
