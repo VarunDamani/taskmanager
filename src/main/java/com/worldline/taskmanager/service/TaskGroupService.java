@@ -36,7 +36,7 @@ public class TaskGroupService {
      * @return a list of TaskGroupResponseDTO representing all task groups.
      */
     public List<TaskGroupResponseDTO> fetchAllTaskGroups() {
-        return taskGroupRepository.findAll().stream().map(taskGroupMapper::toResponseDto).toList();
+        return taskGroupRepository.findAllWithTasks().stream().map(taskGroupMapper::toResponseDto).toList();
     }
 
     /**
